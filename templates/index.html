@@ -6,6 +6,8 @@
     <title>SmartClass | AI powered Attendance System</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')  }}">
     <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo.png')  }}">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
@@ -99,7 +101,7 @@
     <section id="journey" class="teacher-flow">
         <div class="flow-container">
             <div class="section-tag" style="text-align: center; margin-bottom: 40px; display: block;">--Workflow--</div>
-            <h2 style="text-align: center; font-size: 3.5rem; margin-bottom: 80px;">The Teacher's journey</h2>
+            <h2 style="text-align: center; font-size: 3.5rem; margin-bottom: 80px;">The Teacher's Journey</h2>
 
             <div class="flow-step">
                 <div class="flow-content">
@@ -240,6 +242,59 @@
 
         </div>
 
+    </section>
+
+
+
+
+
+    <section id="student-journey" class="teacher-flow" style="background-color: white;">
+        <div class="flow-container">
+            <div class="section-tag" style="text-align: center; margin-bottom: 40px; display: block;">--Workflow--</div>
+            <h2 style="text-align: center; font-size: 3.5rem; margin-bottom: 80px;">The Student's Journey</h2>
+
+            <div class="flow-step">
+                <div class="flow-content">
+                    <div class="step-badge">Phase 01</div>
+                    <h3>Instant Enrollment</h3>
+                    <p>Students join courses in seconds using unique QR codes or course links provided by their
+                        teachers. No tedious sign-up forms.</p>
+                </div>
+                <div class="flow-image">*/ snap-landing-flow-1-login /*
+                    <img src="{{ url_for('static', filename='img/demo/snap-landing.png')  }}" alt="Student Enrollment">
+                </div>
+            </div>
+
+
+            <div class="flow-step">
+                <div class="flow-content">
+                    <div class="step-badge">Phase 02</div>
+                    <h3>Biometric Registration</h3>
+                    <p>Students register their FaceID and VoiceID once. Our AI securely stores these biometrics for
+                        all future class sessions.</p>
+                </div>
+                <div class="flow-image">
+                    <img src="{{ url_for('static', filename='img/demo/snap-student-flow-2-enroll.png')  }}" alt="Biometric Registration">
+                </div>
+            </div>
+
+
+
+
+            <div class="flow-step">
+                <div class="flow-content">
+                    <div class="step-badge">Phase 03</div>
+                    <h3>Personal Dashboard</h3>
+                    <p>A unified view for students to track their attendance percentage across all subjects and
+                        receive real-time updates.</p>
+                </div>
+                <div class="flow-image">
+                    <img src="{{ url_for('static', filename='img/demo/snap-student-flow-3-dashboard.png')  }}" alt="Student Dashboard">
+                </div>
+            </div>
+
+
+        </div>
     </section>
 
     
