@@ -196,6 +196,11 @@ h4 {
     background-color: #f8faff;
 }
 
+.card-label {
+    display: none;
+}
+
+
 .card-left {
     left: 40px;
     top: 50%;
@@ -204,7 +209,6 @@ h4 {
 .card-right {
     right: 40px;
     bottom: 15%;
-    width: 400px;
 }
 
 
